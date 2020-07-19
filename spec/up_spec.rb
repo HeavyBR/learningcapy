@@ -6,7 +6,7 @@ describe 'Upload', :upload do
   end
 
   before(:each) do
-    visit 'https://training-wheels-protocol.herokuapp.com/upload'
+    visit '/upload'
   end
 
   it 'upload com arquivos texto' do

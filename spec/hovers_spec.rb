@@ -1,7 +1,7 @@
 describe 'Hover', :hover do
   
   before(:each) do
-    visit "https://training-wheels-protocol.herokuapp.com/"
+    visit "/"
     click_link('Hovers')
   end
 

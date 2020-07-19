@@ -1,7 +1,7 @@
 describe 'Drag-and-Drop', :drop do
   
   before(:each) do
-    visit "https://training-wheels-protocol.herokuapp.com/"
+    visit "/"
     click_link('Drag and Drop')
   end
 
@@ -15,6 +15,5 @@ describe 'Drag-and-Drop', :drop do
 
     expect(stark).to have_css 'img[alt$=Aranha]'
     expect(cap).not_to have_css 'img[alt$=Aranha'
-  end
 
 end

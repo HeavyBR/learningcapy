@@ -1,7 +1,7 @@
 describe 'Radio', :radio do
   
   before(:each) do
-    visit 'https://training-wheels-protocol.herokuapp.com/'
+    visit '/'
     click_link('Radio Buttons')
   end
 
